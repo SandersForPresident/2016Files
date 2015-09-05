@@ -1,0 +1,64 @@
+- cnn:
+  - transcript_urls:
+    - http://transcripts.cnn.com/TRANSCRIPTS/acd.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ath.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/cnr.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/siu.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/csr.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/cnnt.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/es.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ebo.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/lvab.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/cg.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/thwjw.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/sitroom.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/se.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/sn.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/nday.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ndaysat.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ndaysun.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/wolf.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/wolf.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/cfr.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ip.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/rs.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/smer.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/sotu.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/abpu.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/cld.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/cspo.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/drow.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/inm.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/sgdi.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/tsix.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/tlll.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/vssg.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ampr.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ctw.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/fzgps.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/id.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/nwsm.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/qmb.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/se.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/wrn.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ng.html
+    - http://transcripts.cnn.com/TRANSCRIPTS/ddhln.html
+  - replace_with_spaces:
+    - (BEGIN VIDEO CLIP)
+    - (END VIDEO CLIP)
+    - (via telephone)
+    - (CROSSTALK)
+    - (COMMERCIAL BREAK)
+    - (BEGIN VIDEOTAPE)
+    - (END VIDEOTAPE)
+    - (LAUGHTER)
+    - "\t"
+  - replace_with_newlines:
+    - "--"
+    - "----"
+    - (OFF-MIKE)
+    - (INAUDIBLE QUESTION)
+    - (INAUDIBLE)
+    - (AUDIENCE APPLAUDING)
+    - (AUDIENCE CHEERING AND APPLAUDING)
+    - (LAUGHING)
