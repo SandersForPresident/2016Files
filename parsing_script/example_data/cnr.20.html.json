@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "Markets Close Higher In Asia; European Markets Look To Extend Gains; Trump Spars With Univision Anchor; Anti-immigrant Rhetoric Propels Trump; Momentum Building For Biden Presidential Run; Merkel To Visit Site Of Anti-Refugee Protests; Thousands Of Migrants Making Their Way Across Europe; Train Attack Suspect Faces Multiple Terror Charges; Sideline Diplomatic Talks At Russian Air Show. Aired 3-4a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "ERROL BARNETT, CNN ANCHOR",

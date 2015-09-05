@@ -1,6 +1,14 @@
 {
   "show_name": "CNN'S AMANPOUR",
   "show_title": "Economies Struggle with Austerity across E.U.; Oil-Rich Nations Feeling the Heat; Imagine a World. Aired 11-11:30p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "(MUSIC PLAYING) UNIDENTIFIED MALE",

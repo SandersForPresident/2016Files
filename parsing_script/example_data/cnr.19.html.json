@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "Markets Breathe Easier After Moves of Chinese Central Bank; Trump Fires Attacks at Republican Rivals, FOX News; Paris Attacker Faces Serious Charges; ISIS Destroys Ancient Syrian Temple; Borders Go Up Across Europe to Deal with Migrants; Colombian Immigrants Stream Across Venezuela's Borders; Hawaiian Beach Flooded by Raw Sewage; University of Denver Offers Cannabis Journalism Class. Aired 2-3a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "DONALD TRUMP, (R), PRESIDENTIAL CANDIDATE & CEO, TRUMP ORGANIZATION",

@@ -1,6 +1,14 @@
 {
   "show_name": "NEW DAY",
   "show_title": "Trump Ejects Univision Anchor from Press Conference; Government Shutdown Fight Over Planned Parenthood; Prosecutor: Train Attacker Watched Jihad Video; Wall Street Set for Higher Open. Aired 6-6:30a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "UNIDENTIFIED MALE",

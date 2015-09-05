@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "Two WDBJ Journalists Shot and Killed on Air; Shooters Has Died of Self-Inflicted Gunshot Wound; Hillary Clinton Addresses E-Mail Controversy. Aired 3:30-4p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "BROOKE BALDWIN, CNN HOST",

@@ -1,6 +1,14 @@
 {
   "show_name": "NANCY GRACE",
   "show_title": "Two Journalists Shot Dead on Live TV. Aired 8-9:00p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "NANCY GRACE, HOST",

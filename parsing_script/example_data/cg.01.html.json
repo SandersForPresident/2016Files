@@ -1,6 +1,14 @@
 {
   "show_name": "THE LEAD WITH JAKE TAPPER",
   "show_title": "Trump vs. Everyone; Reporter, Photographer Shot & Killed on Air In Virginia; ABC News Receives Faxed Manifesto. Aired 4-4:30p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "JOHN BERMAN, CNN GUEST HOST",

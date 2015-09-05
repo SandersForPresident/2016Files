@@ -1,6 +1,14 @@
 {
   "show_name": "STUDENT NEWS",
   "show_title": "Terrorists Target Ancient Temple; Price of Oil Affects Global Economy; U.S. Holds Out Against the Metric System",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "CARL AZUZ, CNN STUDENT NEWS ANCHOR",

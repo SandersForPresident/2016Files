@@ -1,6 +1,14 @@
 {
   "show_name": "NEW DAY",
   "show_title": "Univision Anchor Ejected from Press Conference; Government Shutdown Fight Over Planned Parenthood; Is Trump the Candidate for the Tea Party? Aired 7-7:30a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "SARA MURRAY, CNN POLITICAL CORRESPONDENT",

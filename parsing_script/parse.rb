@@ -30,6 +30,8 @@ class CNNParser
     parsed_show = {}
     parsed_show[:show_name] = show_name
     parsed_show[:show_title] = show_title
+    parsed_show[:candidates_mentioned] = ['sanders','clinton','trump']
+    parsed_show[:candidates_quoted] = ['sanders']
     parsed_show[:quotes] = {}
 
     begin

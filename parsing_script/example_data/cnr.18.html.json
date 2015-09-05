@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "Donald Trump and the Media; Alleged Gunman on Paris Train Facing Multiple Charges; Migrants Making Their Way Across Balkans; Merkel to Visit Town Near Dresden; China Tries to Stop Stock Market Slide; \"Anchor Babies\" and Birth Tourism; Russia, Iran Poised to Sign Missile Deal; International Help on Its Way to Fight Washington Fires. Aired 1-2a ET>",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "DONALD TRUMP (R), PRESIDENTIAL CANDIDATE",
