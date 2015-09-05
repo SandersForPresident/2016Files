@@ -3,6 +3,7 @@
 require 'pry'
 require 'nokogiri'
 require 'open-uri'
+require 'json'
 require 'json/ext'
 require 'uri'
 
@@ -16,7 +17,7 @@ class CNNParser
   def transcript
     parsed_show = build_show_hash
 
-    parsed_show.to_json
+    parsed_show
   end
 
   def unparsed_transcript
@@ -118,7 +119,7 @@ hrefs.each do |x|
     filename_base = File.basename(uri.path)
     begin
       output = CNNParser.new(url).transcript
-      File.write("./output/#{filename_base}.json", output)
+      File.write("./output/#{filename_base}.json", JSON.pretty_generate(output))
       pass += 1
     rescue
       output = CNNParser.new(url).unparsed_transcript
@@ -132,6 +133,5 @@ end
 fail = total - pass
 puts "passed: #{pass} failed: #{fail} total:#{total}"
 puts "success rate:#{100 * (pass / total)}"
-
 
 
