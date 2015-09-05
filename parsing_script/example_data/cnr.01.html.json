@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "WDBJ Reporter and Photographer Shot to Death on Air. Aired 9- 9:30a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "ANNOUNCER",

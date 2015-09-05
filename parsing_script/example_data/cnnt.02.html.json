@@ -1,6 +1,14 @@
 {
   "show_name": "CNN TONIGHT",
   "show_title": "Journalists Executed On Live T.V.; Parker Family's Statement; Statement From Gunman's Family; Road Rage Clash With Gunman In July. Aired 9-10p ET.",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "JOHN BERMAN, CNN ANCHOR",

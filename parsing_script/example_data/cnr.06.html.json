@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "Press Conference on Virginia Broadcast Shooting, Death of Suspect; Chamber of Commerce Press Conference on Injured Shooting Victim; Roanoke Mayor David Bowers Talks Shooting, Victims; WDBJ Reflects on Parker, Ward. Aired 2:30-3p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "MIKE MOCK, SHERIFF, FRANKLIN COUNTY SHERIFF'S DEPARTMENT",

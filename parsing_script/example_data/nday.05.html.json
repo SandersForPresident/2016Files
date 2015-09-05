@@ -1,6 +1,14 @@
 {
   "show_name": "NEW DAY",
   "show_title": "Donald Trump Expels Univision Reporter from Press Conference; Donald Trump Attacks FOX News Anchor Megyn Kelly; Interview with Jorge Ramos. Aired 8-8:30a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "UNIDENTIFIED FEMALE",

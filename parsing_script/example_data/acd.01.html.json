@@ -1,6 +1,14 @@
 {
   "show_name": "ANDERSON COOPER 360 DEGREES",
   "show_title": "Television News Crew Gunned Down by Former Colleague; Interview with WDBJ General Manager Jeff Marks; Interview with Donald Trump Campaign's National Co-Chair Sam Clovis. Aired 8-9p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "JOHN BERMAN, CNN HOST",

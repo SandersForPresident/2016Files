@@ -1,6 +1,14 @@
 {
   "show_name": "AT THIS HOUR WITH BERMAN AND MICHAELA",
   "show_title": "Reporter, Photographer Shot During Live Broadcast; Suspect Images Caught on TV Camera Footage. Aired 11-11:30a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "CAROL COSTELLO, CNN ANCHOR",

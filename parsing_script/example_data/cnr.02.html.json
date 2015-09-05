@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "Virginia Reporter and Photographer Shot While on Air; Interview with WDBJ-TV General Manager Jeff Marks. Aired 9:30-10a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "ALISON KOSIK, CNN BUSINESS CORRESPONDENT",

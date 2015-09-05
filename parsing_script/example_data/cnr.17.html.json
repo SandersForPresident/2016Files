@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "Global Markets Recovery?; Donald Trump Spars With Univision Anchor Jorge Ramos; Interview with Macedonia's Foreign Minister. Aired 00:00-01:00a ET.",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "ROSEMARY CHURCH, CNN NEWSROOM HOST",

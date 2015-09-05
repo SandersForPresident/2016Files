@@ -1,6 +1,14 @@
 {
   "show_name": "WOLF",
   "show_title": "Victims of Live Broadcast Shooting; Journalist Around U.S. React to Shooting; Does Trump Confrontation with Ramos Help or Hurt Campaign. Aired 1:30-2p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "ALISON PARKER, REPORTER SHOT DURING LIVE BROADCAST",

@@ -1,6 +1,14 @@
 {
   "show_name": "THE SITUATION ROOM",
   "show_title": "Trump's New Feud; Two Journalists Killed in Virginia. Aired 18- 19:00p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "WOLF BLITZER, CNN ANCHOR",

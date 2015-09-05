@@ -1,6 +1,14 @@
 {
   "show_name": "CNN NEWSROOM",
   "show_title": "Hillary Clinton to Speak in Iowa; 24-year-old Alison Parker and 27-year-old Adam Ward Shot and Killed during a Live Broadcast; New Info on the Shooter. Aired 2-2:030p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "ANNOUNCER",

@@ -1,6 +1,14 @@
 {
   "show_name": "NEWS STREAM",
   "show_title": "Stocks Struggle To Hold On to Gains; Angela Merkel Visits Scene of Anti-Immigrant Protests; Wife of French Hero Explains Husband's Bravery. Aired 8:00a-9:00a ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "KRISTIE LU STOUT, HOST",

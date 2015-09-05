@@ -1,6 +1,14 @@
 {
   "show_name": "THE SITUATION ROOM",
   "show_title": "Reporter, Photographer Shot and Killed on Air; Gunman Faxed Manifesto to TV Network after Shootings; Joe Biden Talks to Top Democrats in Emotional Call; Donald Trump Lashes Out on Twitter. Aired 5-6p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "UNIDENTIFIED MALE",

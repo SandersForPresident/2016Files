@@ -1,6 +1,14 @@
 {
   "show_name": "CNN TONIGHT",
   "show_title": "Two Journalists Executed on Live TV in Virginia; Dr. Ben Carson On a Roll Since First GOP Debate. Aired 10-11:00p ET",
+  "candidates_mentioned": [
+    "sanders",
+    "clinton",
+    "trump"
+  ],
+  "candidates_quoted": [
+    "sanders"
+  ],
   "quotes": [
     {
       "speaker": "DON LEMON, CNN TONIGHT SHOW HOST",
