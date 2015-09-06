@@ -73,11 +73,15 @@ module CandidateQuotes
     end
 
     def show_name
-      @page.css('h1.headline').text.split(":")[0].split("'")[1]
+      get_headline[0].split("'")[1]
     end
 
     def show_title
-      @page.css('h1.headline').text.split(":")[1].strip
+      get_headline[1].strip
+    end
+
+    def get_headline
+      @page.css('h1.headline').text.split(":")
     end
 
     def replace_with_blankspace
