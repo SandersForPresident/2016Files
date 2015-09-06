@@ -25,7 +25,7 @@ module CandidateQuotes
     def build_show_hash
       parsed_show = {}
       parsed_show[:quotes] = {}
-      parsed_show[:show_name] = "This Week"
+      parsed_show[:show_name] = show_name
       parsed_show[:show_title] = show_title
       parsed_show[:air_date] = show_date
       parsed_show[:candidates_mentioned] = ['sanders','clinton','trump']
@@ -35,7 +35,7 @@ module CandidateQuotes
         #puts "speaker: #{x[0]}"#" text:#{x[1]}"
         quote = {}
         quote[:speaker] = x[0].gsub(':', '').strip
-        quote[:text] = x[1].delete "\n"
+        quote[:text] = x[1].gsub("\n", "").gsub(" .", ".").strip
         #fail 'bad speaker' if quote[:speaker].length > 100
         quote
       end
@@ -72,8 +72,12 @@ module CandidateQuotes
       @page.css('div.date').text
     end
 
+    def show_name
+      @page.css('h1.headline').text.split(":")[0].split("'")[1]
+    end
+
     def show_title
-      @page.css('h1.headline').text
+      @page.css('h1.headline').text.split(":")[1].strip
     end
 
     def replace_with_blankspace
