@@ -36,7 +36,7 @@ module CandidateQuotes
         quote = {}
         quote[:speaker] = x[0].gsub(':', '').strip
         quote[:text] = x[1].gsub("\n", "").gsub(" .", ".").strip
-        #fail 'bad speaker' if quote[:speaker].length > 100
+        fail 'bad speaker' if quote[:speaker].length > 100
         quote
       end
       parsed_show
