@@ -13,7 +13,7 @@ module CandidateQuotes
       total = 0.0
       page = Nokogiri::HTML(open(url))
       links = page.css('a')
-      hrefs = links.map {|link| link.attribute('href')}
+      hrefs = links.map { |link| link.attribute('href') }
       hrefs.each do |x|
         if !x.nil? && x.value && x.value.include?('TRANSCRIPTS') && x.value.end_with?('.html')
           total += 1
@@ -29,7 +29,6 @@ module CandidateQuotes
             File.write("./output/#{filename_base}.failed", output)
             puts "failed parsing #{x}"
           end
-
 
         end
       end
