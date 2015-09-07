@@ -46,7 +46,7 @@ module CandidateQuotes
       links.each do |x|
         total += 1
         url = "http://www.nbcnews.com/#{x.attributes['href'].value}"
-        filename_base = url.match(/\/id\/[0-9]+\/ns\/(\w|\W)+/)[0].gsub('/','-')[1..-2]
+        filename_base = url.match(/\/id\/[0-9]+\/ns\/(\w|\W)+/)[0].gsub('/', '-')[1..-2]
         begin
           output = MSNBCParser.new(url).transcript
           File.write("./output/#{filename_base}.json", JSON.pretty_generate(output))
@@ -57,7 +57,6 @@ module CandidateQuotes
           puts "failed parsing #{x}"
         end
       end
-
 
       fail = total - pass
       puts "passed: #{pass} failed: #{fail} total:#{total}"
