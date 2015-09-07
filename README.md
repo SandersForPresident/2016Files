@@ -14,3 +14,7 @@ Create a searchable, tagged database of quotes by each candidate.
 
 #####SECONDARY GOALS
 Create a tagged database of "mentions" for each candidate.
+
+The code for crawling and parsing has been moved into a library so that this repo can contain the website
+[Candidate Quotes Parser](https://github.com/SandersForPresident/candidate_quotes)
+
