@@ -8,7 +8,9 @@ require 'json'
 require 'json/ext'
 require 'uri'
 require '../parsing_script/lib/candidate_quotes'
+require '../parsing_script/lib/candidate_quotes/msnbc_parser'
 require '../parsing_script/lib/candidate_quotes/abc_parser'
+
 
 CandidateQuotes.crawl_msnbc(ARGV[0])
 
