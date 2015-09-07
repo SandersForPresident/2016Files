@@ -28,15 +28,16 @@ module CandidateQuotes
       parsed_show[:show_name] = show_name
       parsed_show[:show_title] = show_title
       parsed_show[:air_date] = show_date
-      parsed_show[:candidates_mentioned] = ['sanders','clinton','trump']
+      parsed_show[:candidates_mentioned] = %w(sanders clinton trump)
       parsed_show[:candidates_quoted] = ['sanders']
+      parsed_show[:original_source] = @url
 
-      parsed_show[:quotes] = quotes.collect do |x|
-        #puts "speaker: #{x[0]}"#" text:#{x[1]}"
+      parsed_show[:quotes] = quotes.map do |x|
+        # puts "speaker: #{x[0]}"#" text:#{x[1]}"
         quote = {}
         quote[:speaker] = x[0].gsub(':', '').strip
-        quote[:text] = x[1].gsub("\n", "").gsub(" .", ".").strip
-        fail 'bad speaker' if quote[:speaker].length > 100
+        quote[:text] = x[1].gsub("\n", '').gsub(' .', '.').strip
+        # fail 'bad speaker' if quote[:speaker].length > 100
         quote
       end
       parsed_show
@@ -51,18 +52,18 @@ module CandidateQuotes
     def show_text
       raw = @page.css('div[itemscope] p').text.strip
 
-      #remove annotations after a speakers name like STEWART (voice-over):
-      raw = raw.gsub(/\([a-z\-]+\)/,'')
+      # remove annotations after a speakers name like STEWART (voice-over):
+      raw = raw.gsub(/\([a-z\-]+\)/, '')
 
       replace_with_blankspace.each do |x|
-        raw = raw.gsub(x,'')
+        raw = raw.gsub(x, '')
       end
 
-      #remove timecodes
-      raw = raw.gsub(/\[\d+:\d+:\d+\]/,'')
+      # remove timecodes
+      raw = raw.gsub(/\[\d+:\d+:\d+\]/, '')
 
       replace_with_newlines.each do |x|
-        raw = raw.gsub(x,"\n")
+        raw = raw.gsub(x, "\n")
       end
 
       raw
@@ -73,23 +74,23 @@ module CandidateQuotes
     end
 
     def show_name
-      get_headline[0].split("'")[1]
+      headline[0].split("'")[1]
     end
 
     def show_title
-      get_headline[1].strip
+      headline[1].strip
     end
 
-    def get_headline
-      @page.css('h1.headline').text.split(":")
+    def headline
+      @page.css('h1.headline').text.split(':')
     end
 
     def replace_with_blankspace
-      ['(BEGIN VIDEO CLIP)','(END VIDEO CLIP)','(via telephone)','(CROSSTALK)','(COMMERCIAL BREAK)','(BEGIN VIDEOTAPE)','(END VIDEOTAPE)','(LAUGHTER)',"\t"]
+      ['(BEGIN VIDEO CLIP)', '(END VIDEO CLIP)', '(via telephone)', '(CROSSTALK)', '(COMMERCIAL BREAK)', '(BEGIN VIDEOTAPE)', '(END VIDEOTAPE)', '(LAUGHTER)', "\t"]
     end
 
     def replace_with_newlines
-      ['--','----','(OFF-MIKE)','(INAUDIBLE QUESTION)','(INAUDIBLE)','(AUDIENCE APPLAUDING)','(AUDIENCE CHEERING AND APPLAUDING)','(LAUGHING)']
+      ['--', '----', '(OFF-MIKE)', '(INAUDIBLE QUESTION)', '(INAUDIBLE)', '(AUDIENCE APPLAUDING)', '(AUDIENCE CHEERING AND APPLAUDING)', '(LAUGHING)']
     end
   end
 end

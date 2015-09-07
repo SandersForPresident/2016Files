@@ -27,18 +27,19 @@ module CandidateQuotes
       parsed_show[:show_name] = show_name
       parsed_show[:show_title] = show_title
       parsed_show[:air_date] = show_date
-      parsed_show[:candidates_mentioned] = ['sanders','clinton','trump']
+      parsed_show[:candidates_mentioned] = %w(sanders clinton trump)
       parsed_show[:candidates_quoted] = ['sanders']
+      parsed_show[:original_source] = @url
       parsed_show[:quotes] = {}
 
-      parsed_show[:quotes] = quotes.collect do |x|
+      parsed_show[:quotes] = quotes.map do |x|
         quote = {}
         quote[:speaker] = x[0].gsub(':', '').gsub('.', '').gsub('--', '').strip
         quote[:text] = x[1].strip
         fail 'bad speaker' if quote[:speaker].length > 100
         quote
       end
-
+      parsed_show[:quotes] = parsed_show[:quotes][0...-1] if parsed_show[:quotes].last[:speaker].empty?
 
       parsed_show
     end
