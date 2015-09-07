@@ -30,6 +30,7 @@ module CandidateQuotes
       parsed_show[:air_date] = show_date
       parsed_show[:candidates_mentioned] = %w(sanders clinton trump)
       parsed_show[:candidates_quoted] = ['sanders']
+      parsed_show[:original_source] = @url
 
       parsed_show[:quotes] = quotes.map do |x|
         # puts "speaker: #{x[0]}"#" text:#{x[1]}"
