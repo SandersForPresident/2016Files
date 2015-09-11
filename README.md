@@ -4,7 +4,7 @@ The goal is to create a searchable database of quotes for not just Bernie, but e
 
 ######Project lead: @aintunez
 ######Frontend: @nolski
-######Crawler/: @usbsnowcrash
+######Crawler/: @usbsnowcrash, @luciofranco
 ######Server/database admin: @stephanxx
 
 ####SPECIFIC GOALS
